@@ -1,0 +1,16 @@
+      "API_ID": {
+        "description": "لا تغيــرهـــا",
+        "value": "17154185",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "لا تغيــرهـــا",
+        "value": "7d24797dd1d72adbe8ee2596be2904d0",
+        "required": true
+      },
+
+      "MONGO_DB_URI": {
+        "description": "لا تغيــرهـــا",
+        "value": "mongodb+srv://proceed58:proceed58@cluster0.p5s9ym5.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
+      },
