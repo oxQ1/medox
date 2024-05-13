@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram import enums
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus , ChatType
 from pyrogram.types import ChatPermissions, ChatPrivileges
-from AnonXMusic import app
+from AbdoX import app
 import asyncio
 
 
