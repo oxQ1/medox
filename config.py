@@ -36,7 +36,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/lotusabdo/AbdoX.git",
+    "https://github.com/oxQ1/medox.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -94,7 +94,7 @@ command = ["/"]
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/070f807057a73be77d050.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/b56c2f4ff37d1f22dd38a.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://te.legra.ph/file/706058c12aa9f0729f001.jpg"
