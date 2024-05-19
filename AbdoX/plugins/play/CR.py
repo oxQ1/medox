@@ -100,12 +100,12 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["مبرمج السورس" , "مودي","السفل"])
+    command(["مبرمج السورس" , "ايهاب","السفل"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("VIP_lD")
+    usr = await client.get_chat("EHepp")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"مــعلـومـات مــبرمـج الـسـورس  \n\n dev :{name}\n\n user :@{usr.username}\n\n id :`{usr.id}`\n\n bio :{usr.bio}\n\n𝐒𝐎𝐔𝐑𝐂𝐄 𝐌𝐄𝐃𝐎 𖠱", 
