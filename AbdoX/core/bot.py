@@ -1,4 +1,4 @@
-from pyrogram import Client, errors
+from pyrogram import Client, 
 from pyrogram.enums import ChatMemberStatus, ParseMode
 
 import config
