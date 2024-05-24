@@ -52,7 +52,7 @@ def reply_to_HEY(Client, message):
         reply_markup=InlineKeyboardMarkup(
             [
             [
-                InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄 𝐌𝐄𝐃𝐎 𖠱", url=f"https://t.me/UJ_5Q "),
+                InlineKeyboardButton("𝐒𝐎𝐔𝐑𝐂𝐄 𝐌𝐄𝐃𝐎", url=f"https://t.me/UJ_5Q "),
             ]
          ]
      )
