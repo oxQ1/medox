@@ -36,7 +36,7 @@ async def huhh(client: Client, message: Message):
             InlineKeyboardButton(
                         "˛𝑴𝑬𝑫𝑶 𓏺 𝑨𝑳𝑬𝑿 ᭡ٰ🇵🇸💤 ", url=f"https://t.me/ox_Q1"), 
                    InlineKeyboardButton(
-                        " [ ᯓ𓏺𖡡『 𝙈𝙊𝘿𝙔 𝘼𝙇𝙀𝙓 』🇸🇦 ]الـمتـوحـد  ", url=f"https://t.me/VIP_lD"), 
+                        " [ ⁽♔₎┋𝐃𝐀𝐃 𝐀𝐋𝐀𝐅𝐈𝐔𝐍𝐀𝐇  ", url=f"https://t.me/ABD_URH_MAN"), 
              ],[ 
                   InlineKeyboardButton(
                 text="اضغط لاضافتي لمجموعتك⚡",
@@ -100,12 +100,12 @@ async def yas(client, message):
 
 
 @app.on_message(
-    command(["مبرمج السورس" , "مودي","السفل"])
+    command(["مبرمج السورس" , "افيونه","السفل"])
     
     
 )
 async def yas(client, message):
-    usr = await client.get_chat("VIP_lD")
+    usr = await client.get_chat("ABD_URH_MAN")
     name = usr.first_name
     photo = await app.download_media(usr.photo.big_file_id)
     await message.reply_photo(photo,       caption=f"مــعلـومـات مــبرمـج الـسـورس  \n\n dev :{name}\n\n user :@{usr.username}\n\n id :`{usr.id}`\n\n bio :{usr.bio}\n\n𝐒𝐎𝐔𝐑𝐂𝐄 𝐌𝐄𝐃𝐎 𖠱", 
